@@ -16,10 +16,10 @@ The SQL queries used in this project showcase my ability to:
 
     This query identifies the books with the highest average user rating.
 
+    ![Query #1](images/query1.png)
+
     ```sql
     SELECT title, avg_reviews
     FROM dsbooks
     ORDER BY avg_reviews DESC
     LIMIT 5;
-
-    ![Query #1](images/query1.png)
