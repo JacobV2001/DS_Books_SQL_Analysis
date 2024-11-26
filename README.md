@@ -16,10 +16,25 @@ The SQL queries used in this project showcase my ability to:
 
     This query identifies the books with the highest average user rating.
 
-    ![Query #1](images/query1.png)
-
     ```sql
     SELECT title, avg_reviews
     FROM dsbooks
     ORDER BY avg_reviews DESC
     LIMIT 5;
+    ```
+
+    ![Query #1](images/query1.png)
+
+2. __Which books have the most reviews?__
+
+    This query helps identify the books that have the highest number of reviews, indicating popularity.
+
+    ```sql
+    SELECT title, n_reviews
+    FROM dsbooks
+    WHERE n_reviews IS NOT NULL
+    ORDER BY n_reviews DESC
+    LIMIT 5;
+    ```
+
+    ![Query #2](images/query2.png)
