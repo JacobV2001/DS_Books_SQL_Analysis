@@ -10,7 +10,7 @@ By analyzing this relationship, the project seeks to provide insights that could
 
 ## Data Schema
 
-The dataset used in this project includes the following attributes:
+The [dataset](https://www.kaggle.com/datasets/die9origephit/amazon-data-science-books/data) used in this project includes the following attributes:
 
 - **title**: the title of the book.
 - **author**: the author of the book.
