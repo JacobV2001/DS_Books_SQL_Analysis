@@ -8,6 +8,14 @@ This SQL project aims to explore the relationship between book prices and their 
 
 By analyzing this relationship, the project seeks to provide insights that could benefit the book industry, authors, publishers, and consumers who may wish to understand how price and quality interact in the book market.
 
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [Data Schema](#data-schema)
+3. [SQL Techniques Used](#sql-techniques-used)
+4. [Key Queries and Insights](#key-queries-and-insights)
+5. [Conclusion](#conclusion)
+
 ## Data Schema
 
 The [dataset](https://www.kaggle.com/datasets/die9origephit/amazon-data-science-books/data) used in this project includes the following attributes:
